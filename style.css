@@ -25,7 +25,8 @@ ul {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   padding: 0;
   margin: 0;
 }
@@ -160,3 +161,42 @@ h2 {
   font-weight: 800;
   text-align: right;
 }
+
+.main-last {
+  padding: 100px 16px;
+}
+
+.main-last > .flex {
+  background-color: #3882F6;
+  padding: 40px 100px;
+  border-radius: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-last-text h3 {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.main-last-text p {
+  color: #ffffff;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.main-last-button button {
+  background-color: #3882F6;
+  font-size: 18px;
+  font-weight: 800;
+  color: #ffffff;
+  padding: 6px 32px;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: #ffffff;
+  border-style: solid;
+}
+
+
+
+

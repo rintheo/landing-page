@@ -134,9 +134,12 @@ h3 {
 }
 
 .quote {
+  background-color: #e5e7eb;
+}
+
+.quote > .max-width {
   padding: 80px 100px;
   padding-top: 150px;
-  background-color: #e5e7eb;
 }
 
 .quote q {
